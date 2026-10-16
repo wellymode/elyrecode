@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "elyrecode",
+	"version": "${version}",
+	"name": "elyrecode",
+	"description": "Armor indicator",
+	"authors": [
+		"Antigravity",
+		"milangelvi"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/elyrecode/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.elyrecode.ElyrecodeMod"
+		],
+		"client": [
+			"com.elyrecode.client.ElyrecodeClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
